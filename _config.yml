@@ -24,7 +24,7 @@ url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
-baseurl:
+baseurl: aliquam
 
 # Change this to your google analytics ID
 google_analytics:
