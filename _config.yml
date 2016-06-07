@@ -19,8 +19,8 @@ disqus: grrinchas
 # url: http://localhost:4000
 
 # Set your host if deployed not locally
-# For example "https://yourGitHub.github.io"
-url: https://www.dennis-grinch.co.uk
+# For example "http://yourGitHub.github.io"
+url: http://www.dennis-grinch.co.uk
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
