@@ -16,7 +16,7 @@ subtitle: Theme
 disqus: grrinchas
 
 # Uncomment if deployed locally
-# url: https://localhost:4000
+# url: http://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
@@ -28,6 +28,8 @@ baseurl: /aliquam
 
 # Change this to your google analytics ID
 google_analytics:
+
+contact_PK:
 
 ##########################################
 #          Optional variables
