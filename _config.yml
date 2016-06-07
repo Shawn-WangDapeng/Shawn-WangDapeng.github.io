@@ -47,7 +47,8 @@ truncate_size: 30
 #          Do not change these variables
 ##########################################
 
-include:  ["_pages"]
+include:  ["pages"]
+
 sass:
   sass_dir: _sass
 sass:
