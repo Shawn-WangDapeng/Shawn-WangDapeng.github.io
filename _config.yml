@@ -3,12 +3,12 @@
 #     Change these variables !important
 ##########################################
 
-owner: Shawn
+owner: Name Surname
 
-title: "王鹏的个人博客"
+title: Aliquam
 
 # Set subtitle e.g "blog"
-subtitle: "iOSer"
+subtitle: Theme
 
 # Following needed for disqus integration
 
@@ -20,7 +20,6 @@ disqus:
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-https://shawn-wangdapeng.github.io/
 url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
