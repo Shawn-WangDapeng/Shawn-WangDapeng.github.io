@@ -1,3 +1,14 @@
+---
+layout: post
+title: My Jekyll Theme
+comments: true
+category: portfolio
+tags:
+    - web-development
+    - jekyll
+    - theme
+---  
+
 ##UITabBarController用法
 **官方解释：**  
 
@@ -60,3 +71,4 @@ didSelectViewController:(UIViewController *)viewController
 ![Demo 图片截图](http://7xleoh.com1.z0.glb.clouddn.com/tabbarDemo.png)
 
 [git Demo地址](https://github.com/Shawn-WangDapeng/UITabBarControllerDemo.git)
+

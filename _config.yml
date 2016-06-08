@@ -3,12 +3,12 @@
 #     Change these variables !important
 ##########################################
 
-owner: Name Surname
+owner: 王鹏
 
-title: Aliquam
+title: 我的博客
 
 # Set subtitle e.g "blog"
-subtitle: Theme
+subtitle: 不积跬步 无以至千里
 
 # Following needed for disqus integration
 
