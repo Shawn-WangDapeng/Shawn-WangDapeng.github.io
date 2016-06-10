@@ -1,67 +1,100 @@
-
-##########################################
-#     Change these variables !important
-##########################################
-
-owner: 王鹏
-
-title: 我的博客
-
-# Set subtitle e.g "blog"
-subtitle: 不积跬步 无以至千里
-
-# Following needed for disqus integration
-
-# Set your 'disqus' account name
-disqus:
-
-# Uncomment if deployed locally
-# url: https://localhost:4000
-
-# Set your host if deployed not locally
-# For example "https://yourGitHub.github.io"
-url:
-
-# Change this to your base URL starting with forward slash if site is in gh-pages branch
-# For example /branchName
-baseurl:
-
-# Change this to your google analytics ID
-google_analytics:
-
-# Change this to your http://getsimpleform.com public key
-contact_PK:
-
-##########################################
-#          Optional variables
-##########################################
+# Site settings
+title: My Blog
+SEOTitle: 王鹏的博客 | Shawn’s Blog
+header-img: img/home-bg.jpg
+email: wangpeng_usst2012@126.com
+description: "不积跬步 无以至千里"
+keyword: ""
+url: "http://huangxuan.me"              # your host, for absolute URL
+baseurl: "" #"/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
-# Set maximum posts per page
-paginate: 5
 
-# Set permalink
-permalink: /:categories/:title
-
-# Set excerpt separator
-truncate_size: 30
-
-##########################################
-#          Do not change these variables
-##########################################
-
-include:  ["pages"]
-
-sass:
-  sass_dir: _sass
-sass:
-    style: compressed
+# SNS settings
+RSS: false
+weibo_username:     huxpro
+zhihu_username:     huxpro
+github_username:    huxpro
+#twitter_username:  huxpro
+facebook_username:  huxpro
 
 
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap # add /sitemap.xml file
-  - jekyll-seo-tag # seo meta tag & json-ld
-  - jekyll-feed # add /feed.xml file
 
-paginate_path: /pages/page:num
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: huxblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "不积跬步 无以至千里。"
+sidebar-avatar: /img/icon_wechat.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    },{
+        title: "Foo",
+        href: "#"
+    },{
+        title: "Bar",
+        href: "#"
+    },{
+        title: "Example Friends",
+        href: "#"
+    },{
+        title: "It helps SEO",
+        href: "#"
+    }
+]
