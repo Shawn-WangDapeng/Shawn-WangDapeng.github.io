@@ -7,6 +7,8 @@ author:     "Hux"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - 生活
+    - iOS
+    - 控件
 ---
 
 > “Yeah It's on. ”

@@ -1,9 +1,9 @@
 # Site settings
-title: My Blog
+title: 王鹏的博客
 SEOTitle: 王鹏的博客 | Shawn’s Blog
 header-img: img/home-bg.jpg
 email: wangpeng_usst2012@126.com
-description: "不积跬步 无以至千里"
+description: "记录平时工作、学习、生活的点点滴滴"
 keyword: ""
 url: "http://huangxuan.me"              # your host, for absolute URL
 baseurl: "" #"/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
@@ -12,9 +12,9 @@ baseurl: "" #"/huxblog-boilerplate"         # for example, '/blog' if your blog 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+weibo_username:     fashiohPeng
+zhihu_username:     wang-belly
+github_username:    Shawn-WangDapeng
 #twitter_username:  huxpro
 facebook_username:  huxpro
 
