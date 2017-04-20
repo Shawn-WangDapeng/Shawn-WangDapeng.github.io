@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "UITabBarController用法"
-subtitle:   "ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?"
+subtitle:   "iOS组件使用"
 date:       2016-06-08
 author:     "王鹏"
 header-img: "img/post-bg-js-version.jpg"
